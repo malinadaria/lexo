@@ -46,8 +46,8 @@ module.exports = {
   ],
 
   // Конфигурация для серверов разработки (необязательно)
-  devServer: {
-    contentBase: path.resolve(__dirname, 'dist'), // Папка для отдачи статического контента
-    port: 3000, // Порт для разработки
-  },
+  // devServer: {
+  //   contentBase: path.resolve(__dirname, 'dist'), // Папка для отдачи статического контента
+  //   port: 3000, // Порт для разработки
+  // },
 };
